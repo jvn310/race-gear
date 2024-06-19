@@ -1,71 +1,46 @@
-.navbar {
-    background: #010101; 
-    font-family: "Montserrat", sans-serif; 
-    padding: 5px 15px;
-}
-
-.navdiv {
-    display: flex; 
-    align-items: center; 
-    justify-content: flex-end;
-}
-
-li {
-    list-style: none; 
-    display: inline-block; 
-}
-
-li a {
-    color: white; 
-    font-size: 18px; 
-    font-weight: bold; 
-    margin-right: 25px;
-}
-
-button {
-    background-color: #00563B; 
-    margin-left: 10px; 
-    border-radius: 10px; 
-    padding: 10px; 
-    width: 90px;
-}
-
-button:hover {
-    background-color: #007A5E;
-}
-
-button a {
-    color: white;
-}
-
-a {
-    text-decoration: none;
-}
-
-body {font-family: Georgia;}
+body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred;}
 .container 
-    {width: 60%;
+    {width: 80%;
     margin: auto;
     overflow: hidden;}
-header 
-    {background: transparent;
-    color:transparent;
+header {
+    background: #333;
+    color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: red 3px solid;}
-header
-    {color: purple;
+    border-bottom: #77D42A 3px solid;
+}
+header a {
+    color: palegreen;
     text-decoration: teal;
     text-transform: uppercase;
-    font-size: 16px;}
+    font-size: 16px;
+}
 header ul {
     padding: 0;
-    list-style: none;}
-header li 
-    {float: right;
+    list-style: none;
+}
+header li {
+    float: right;
     display: inline;
-    padding: 0 20px 0 20px;}
-header .logo
-    {float: left;}
+    padding: 0 20px 0 20px;
+}
+header .logo {
+    float: left;
+}
 header .logo h1 {
-    margin: 0;}
+    margin: 0;
+}
+.main-content {
+    padding: 30px 0;
+}
+.main-content h1 {
+    color: #333;
+}
+.main-content p {
+    color: #666;
+}
