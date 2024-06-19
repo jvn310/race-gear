@@ -1,3 +1,62 @@
+body {
+    background-image: url(../images/f1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #2C021C; 
+    font-family: "Montserrat", sans-serif; 
+    padding: 5px 15px;
+}
+
+.navdiv {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 60px;
+    height: 60px; 
+}
+
+li {
+    list-style: none; 
+    display: inline-block; 
+    padding-left: 45px;
+}
+
+li a {
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+
+button {
+    background-color: #00563B; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+
+button:hover {
+    background-color: #007A5E;
+}
+
+button a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
     margin: 0;
@@ -38,9 +97,9 @@ header .logo h1 {
 .main-content {
     padding: 30px 0;
 }
-.main-content h1 {
-    color: #333;
+.main-content h2 {
+    color: pink;
 }
 .main-content p {
-    color: #666;
+    color: purple;
 }
