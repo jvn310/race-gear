@@ -1,19 +1,43 @@
 .navbar {
-    background: #010101; font-family: "Montserrat", sans-serif; padding-right: 15px; padding-left: 15px;
+    background: #010101; 
+    font-family: "Montserrat", sans-serif; 
+    padding: 5px 15px;
 }
 
 .navdiv {
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end;
 }
 
 li {
-    list-style: none; display: inline-block;
+    list-style: none; 
+    display: inline-block; 
 }
 
 li a {
-    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
 }
 
 button {
-    background-color: #00563B;
+    background-color: #00563B; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+
+button:hover {
+    background-color: #007A5E;
+}
+
+button a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
