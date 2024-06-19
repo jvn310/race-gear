@@ -1,5 +1,14 @@
+body {
+    background-image: url(../images/f1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
-    background: #010101; 
+    background: #2C021C; 
     font-family: "Montserrat", sans-serif; 
     padding: 5px 15px;
 }
@@ -10,9 +19,15 @@
     justify-content: flex-end;
 }
 
+.logo {
+    width: 60px;
+    height: 60px; 
+}
+
 li {
     list-style: none; 
     display: inline-block; 
+    padding-left: 45px;
 }
 
 li a {
