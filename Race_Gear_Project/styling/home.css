@@ -71,6 +71,7 @@ a {
     border-radius: 10px;
     color: white;
     float: left;
+    text-align: center;
 }
 
 .tickets {
@@ -84,8 +85,11 @@ a {
     margin-left: 100px;
 }
 
-h1 {
-    color: white;
+#heading {
+    color: black;
+    font-family: "Playwrite NG Modern", cursive;
+    text-align: center;
+    font-size: 50px;
 }
 
 .promotion {
@@ -97,4 +101,8 @@ h1 {
     border-radius: 10px;
     color: white;
     padding-top: 5px;
+}
+
+.bullets {
+    color: #010101;
 }
