@@ -1,4 +1,10 @@
-body{background-size: cover; background-image:url(../images/f1.jpg) ;}
+body{
+  background-size: cover; 
+  background-image:url(../images/f1.jpg);
+  margin: 0;
+  padding: 0;
+}
+
 
 h1{color: #020202; font-family: "Playwrite NG Modern", cursive;; text-align: center;}
 
@@ -91,9 +97,8 @@ h1{color: #020202; font-family: "Playwrite NG Modern", cursive;; text-align: cen
 
   .navbar {
     background: #2C021C; 
-    font-family: "Montserrat", sans-serif;  
-  padding: 5px 15px;
-  position: fixed;
+    font-family: "Montserrat", sans-serif; 
+    padding: 5px 15px;
 }
 
 .navdiv {
@@ -105,13 +110,6 @@ h1{color: #020202; font-family: "Playwrite NG Modern", cursive;; text-align: cen
 .logo {
     width: 60px;
     height: 60px; 
-}
-
-.imglogo {
-  margin-right: 605px;
-  display: flex;
-  color: white;
-  font-family: "Montserrat", sans-serif; 
 }
 
 nav li {
@@ -132,7 +130,8 @@ button {
     margin-left: 10px; 
     border-radius: 10px; 
     padding: 10px; 
-    width: 90px;
+    width: 60px;
+    font: size 20px;;
 }
 
 button:hover {
@@ -142,6 +141,7 @@ button:hover {
 button a {
     color: white;
 }
+
 
 a {
     text-decoration: none;
