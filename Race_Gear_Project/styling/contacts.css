@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #2c021c;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.logo{
+    height: 58px;
+    float: left;
+}
+
+.logo img{
+    height: 100%;
+}
+
+nav ul{
+    float: right;
+    
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 16px;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #14000c;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .active {
+    background-color: #dcbebe;
+    color: #9f1a6c;
+    font-weight: bold;
+  }
+
+.pageHeading{
+    background-image: url("../images/f1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.transparentBackgrround{
+    background: rgba(63, 50, 64, 0.6);
+    height: 250px;
+    overflow: hidden;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading h1{
+    font-size: 2.5em;
+    margin-top: 105px;
+}
+
+.mainSection{
+    padding: 30px;
+}
+
+.footer{
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Contact us page style starts here */
+.contactContainer{
+    display: flex;
+}
+
+.contact{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titleText{
+    font-weight: bold;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contactTable{
+    width: 100%;
+}
+
+.contactTable tr td{
+    display: flex;
+    width: 80%;
+    overflow: hidden;
+}
+
+.contactTable input, textarea, button{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #2C021C;
+    margin: 8px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contactTable button{
+    background-color: #2C021C;
+    color: #fff;
+    font-size: 1.0em;
+}
+
+.maps{
+    outline: 5px solid #2C021C;
+    border-radius: 2px;
+}
+
+/* Contact us page style ends here */
+
+
+
+
+
+/* Events Page styles starts here*/
+
+.eventsContainer{
+    display: flex;
+    width: 100%;
+}
+
+.event {
+    width: 50%;
+    background:transparent;
+    background-color: lightgray;
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  .eventHeading{
+    background-color: #2C021C;
+    height: 40px;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .eventContent{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .eventImage{
+    width: 50%;
+    
+  }
+
+  .eventImage img{
+    width: 100%;
+    border-radius: 3px;
+    height: 100%;
+  }
+
+  .eventDetails{
+    width: 40%;
+    padding: 15px;
+  }
+
+  .discount{
+    color: #9f1a6c;
+    font-size: 1.1em;
+    font-family: cursive;
+  }
+
+
+  .button {
+    position: relative;
+    background-color: #9f1a6c;
+    border: none;
+    width: 40%;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+
+/*Events Page styles ends here*/
+
+
+
+/*Gallery Page styles starts here*/
+
+.collargeContainer{
+    width: 100%;
+    overflow: hidden; 
+    
+}
+
+.galleryHeader{
+    text-align: center;
+}
+
+.galleryHeader h4{
+    color: #9f1a6c;
+    font-size: 1.2em;
+}
+
+.galleryContainer{
+    padding: 0 6px;
+    margin-bottom: 20px;
+    float: left;
+    width: 33%;
+}
+
+.galleryRow{
+    display: flex;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/*Gallery Page styles ends here*/
