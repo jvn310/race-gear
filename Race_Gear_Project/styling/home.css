@@ -24,6 +24,13 @@ body {
     height: 60px; 
 }
 
+.imglogo {
+    margin-right: 620px;
+    display: flex;
+    color: white;
+    font-family: "Montserrat", sans-serif; 
+}
+
 nav li {
     list-style: none; 
     display: inline-block; 
@@ -82,7 +89,7 @@ a {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     color: white;
-    margin-left: 100px;
+    margin-left: 80px;
     text-align: center;
 }
 
@@ -106,4 +113,33 @@ a {
 
 .bullets {
     color: #010101;
+}
+
+.container {
+    margin: auto;
+}
+
+.footer-col ul {
+    list-style: none;
+    margin-left: 2px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 65px 5px;
+}
+
+.footer-col {
+    width: 380px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.footer-col h3 {
+    font-size: 15px;
 }

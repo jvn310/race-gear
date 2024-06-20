@@ -106,6 +106,13 @@ h1{color: #020202; font-family: "Playwrite NG Modern", cursive;; text-align: cen
     height: 60px; 
 }
 
+.imglogo {
+  margin-right: 605px;
+  display: flex;
+  color: white;
+  font-family: "Montserrat", sans-serif; 
+}
+
 nav li {
     list-style: none; 
     display: inline-block; 

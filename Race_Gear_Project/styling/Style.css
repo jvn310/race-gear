@@ -24,6 +24,13 @@ body {font-family:'Times New Roman', Times, serif ;
     height: 60px; 
 }
 
+.imglogo {
+    margin-right: 620px;
+    display: flex;
+    color: white;
+    font-family: "Montserrat", sans-serif; 
+}
+
 li {
     list-style: none; 
     display: inline-block; 
