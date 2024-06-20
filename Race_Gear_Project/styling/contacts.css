@@ -452,3 +452,10 @@ div.gallery {
 
 /* About page style ends here */
 
+/* Form styling starts here */
+
+form {
+    background-image: url(../images/f1.jpg);
+    background-size: cover;
+    color: white;
+}
