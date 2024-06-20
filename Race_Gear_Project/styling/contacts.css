@@ -182,6 +182,10 @@ nav li a:hover:not(.active) {
     width: 100%;
 }
 
+.eventsContainer p {
+    color: black;
+}
+
 .event {
     width: 50%;
     background:transparent;
