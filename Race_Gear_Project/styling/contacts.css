@@ -111,11 +111,13 @@ nav li a:hover:not(.active) {
 .footerSection p {
     margin-top: 2px;
     margin-bottom: 2px;
+    color: #010101;
 }
 
 .copyright {
     margin-top: 1px;
     font-size: 15px;
+    color: #010101;
 }
 
 
@@ -137,6 +139,10 @@ nav li a:hover:not(.active) {
 .contact a {
     text-decoration: none;
     color: #000;
+}
+
+.contact p {
+    color: #010101;
 }
 
 .contactTable{
