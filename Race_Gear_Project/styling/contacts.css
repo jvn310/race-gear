@@ -244,6 +244,13 @@ nav li a:hover:not(.active) {
     cursor: pointer;
   }
 
+  .titleText {
+    color: black;
+  }
+
+h4 {
+    text-align: center;
+}
 
 /*Events Page styles ends here*/
 
@@ -431,5 +438,5 @@ p
 }
 
 
-/* Home page style ends here */
+/* About page style ends here */
 
