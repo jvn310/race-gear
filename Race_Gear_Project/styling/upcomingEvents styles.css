@@ -93,6 +93,7 @@ h1{color: #020202; font-family: "Playwrite NG Modern", cursive;; text-align: cen
     background: #2C021C; 
     font-family: "Montserrat", sans-serif;  
   padding: 5px 15px;
+  position: fixed;
 }
 
 .navdiv {
@@ -104,6 +105,13 @@ h1{color: #020202; font-family: "Playwrite NG Modern", cursive;; text-align: cen
 .logo {
     width: 60px;
     height: 60px; 
+}
+
+.imglogo {
+  margin-right: 605px;
+  display: flex;
+  color: white;
+  font-family: "Montserrat", sans-serif; 
 }
 
 nav li {
