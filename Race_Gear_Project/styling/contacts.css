@@ -125,9 +125,13 @@ nav li a:hover:not(.active) {
 
 /* Contact us page style starts here */
 
+.contactContainer{
+    display: flex;
+    width: 100%;
+}
 
 .contact{
-    width: 100%;
+    width: 50%;
     margin: 10px;
     padding: 10px;
 }
@@ -258,9 +262,7 @@ nav li a:hover:not(.active) {
     color: black;
   }
 
-h4 {
-    text-align: center;
-}
+
 
 /*Events Page styles ends here*/
 
@@ -381,7 +383,7 @@ div.gallery {
 
 /* About Us style starts here */
 
-.container 
+.aboutusContainer 
 {
  display: flex;
  justify-content:space-between;
@@ -433,13 +435,13 @@ div.gallery {
     border: 1px solid blueviolet;
     padding-top: 10px;
 }
-h2 
+.aboutusContainer h2 
 {
     color: pink;
     text-align:center;
     font:bold;
 }
-p
+.aboutusContainer p
 {
     color: whitesmoke;
     text-align: center;
