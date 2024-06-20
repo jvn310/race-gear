@@ -454,5 +454,6 @@ p
 
 form {
     background-image: url(../images/f1.jpg);
-    
+    background-size: cover;
+    color: white;
 }
