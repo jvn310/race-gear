@@ -94,13 +94,6 @@ a {
     text-align: center;
 }
 
-#heading {
-    color: black;
-    font-family: "Playwrite NG Modern", cursive;
-    text-align: center;
-    font-size: 50px;
-}
-
 .promotion {
     width: 400px;
     height: 450px;
@@ -111,6 +104,15 @@ a {
     color: white;
     padding-top: 5px;
 }
+
+
+#heading {
+    color: black;
+    font-family: "Playwrite NG Modern", cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
 
 .bullets {
     color: #010101;
@@ -131,7 +133,7 @@ a {
 }
 
 .footer {
-    background-color: #00563B;
+    background-color: #013220;
 }
 
 .footer-col {
