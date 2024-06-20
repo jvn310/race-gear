@@ -81,18 +81,48 @@ nav li a:hover:not(.active) {
     padding: 30px;
 }
 
+/* Footer styling */
+
 .footer{
-    height: 100px;
+    height: 109px;
     background-color: lightgray;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.footerSection {
+    flex: 1;
+    padding: 0 20px;
+    max-width: 300px;
+}
+
+
+.footerSection h4 {
+    margin: 0;
+}
+
+.footerSection p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.copyright {
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+
+/* Footer styling ends here */
 
 /* Contact us page style starts here */
-.contactContainer{
-    display: flex;
-}
+
 
 .contact{
     width: 100%;
@@ -313,6 +343,7 @@ div.gallery {
 .bullets {
     color: #010101;
 }
+<<<<<<< HEAD
 /* Home style ends here */
 
 
@@ -383,3 +414,7 @@ p
     font-size: medium;
     font-family: Cambria;
 }
+=======
+
+/* Home page style ends here */
+>>>>>>> 1cf7083f7af2e9b32d0affd0d35928938c681239
