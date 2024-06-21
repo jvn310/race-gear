@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet"href="./styling/contacts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="our logo" class="logo">
+        </div>
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./About Us.html">About</a></li>
+            <li><a href="./ContactUs.html">Contacts</a></li>
+            <li><a href="./Gallery.html">Gallery</a></li>
+            <li><a href="./UpcomingEvents.html" class="active">Events</a></li>
+        </ul>
+    </nav>
+
+    <div class="pageHeading">
+        <div class="transparentBackgrround">
+            <div class="heading">
+                <h1>RSVP for <script>document.write(new URLSearchParams(window.location.search).get("event"));</script></h1>
+            </div>
+
+        </div>
+    </div> 
+    
+    <!-- Page content starts here -->
+    <div class="mainSection">
+
+        <div class="rsvpContainer">
+
+            <h2 class="rsvpPrice">
+                RSVP for the exciting <script>document.write(new URLSearchParams(window.location.search).get("event"));</script> racing show <br/> for an amount of <span class="priceHighlight"><script>document.write(new URLSearchParams(window.location.search).get("price"));</script></span>
+            </h2>
+
+            <div class="tableContainer">
+
+                <form>
+                    <h4>Personal Details</h4>
+                    <label>First Name: </label><br>
+                    <input name="firstName" type="text" required />
+                    <br>
+                    <label>Last Name: </label><br>
+                        <input name="lastName" type="text" required />
+                    <br>
+                    <label>Age: </label><br>
+                    <input name="age" type="number" min="18" required />
+                    <br>
+                    <label>Gender: </label>
+                    <br>                        
+                    <input type="radio" id="female" name="gender" value="female" class="gender" required />
+                    <label for = "female">Female</label>                        
+                    <input type="radio" id="male" name="gender" value="male" class="gender" required />
+                    <label for = "male">Male</label>
+                    <br>
+                    <h4>Contact Details</h4>
+                    <label>Phone Number: </label><br>
+                    <input name="phoneNumber" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="0762543695" required />
+                    <br>
+                    <label>Email Address: </label><br>
+                    <input name="email" type="email" required />
+                    <br>
+                    <h4>Payment Data</h4>
+                    
+                    <label>Card Holder: </label><br>
+                    <input name="cardHolder" type="text" required />
+                    <br>
+                    
+                    <label>Card Number: </label><br>
+                    <input name="cardNumber" type="number" required />
+                    <br>
+                    
+                    <label>Card Expiry Date: </label><br>
+                    <input name="expiryDate" type="date" required />
+                    <br>
+                    
+                    <label>CVV: </label><br>
+                    <input name="cvv" type="number" minlength="3" maxlength="3" required />
+                    <br>
+                    <div class="checkboxContainer">
+                        <input id="checkbox" type="checkbox" required class="checkbox" />
+                        <label for="checkbox">I agree to these <a href="#">Terms and Conditions.</a></label>
+                    </div>
+                    <br>   
+                    <input type="submit" value="RSVP" class="rsvpButton" />
+                    
+                </form>
+
+            </div>
+            
+        </div>
+        
+    
+    </div>
+    <!-- Page content end here -->
+
+    <br/>
+    <div class="footer">
+        <h4>This is a footer</h4>
+        Copyrights reserved &copy; 2024
+    </div>
+</body>
+</html>
+
+
+
+  
