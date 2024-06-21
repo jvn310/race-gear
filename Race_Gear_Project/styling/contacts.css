@@ -125,9 +125,13 @@ nav li a:hover:not(.active) {
 
 /* Contact us page style starts here */
 
+.contactContainer{
+    display: flex;
+    width: 100%;
+}
 
 .contact{
-    width: 100%;
+    width: 50%;
     margin: 10px;
     padding: 10px;
 }
@@ -258,9 +262,7 @@ nav li a:hover:not(.active) {
     color: black;
   }
 
-h4 {
-    text-align: center;
-}
+
 
 /*Events Page styles ends here*/
 
@@ -304,7 +306,7 @@ div.gallery {
   
   div.gallery img {
     width: 100%;
-    height: auto;
+    height: 300px;
   }
   
   div.desc {
@@ -315,20 +317,6 @@ div.gallery {
 
 /*Gallery Page styles ends here*/
 
-
-/*Form Page styles starts here*/
-
-.form{
-    position: relative;
-    background-color: #9f1a6c;
-    border: none;
-    width: 40%;
-    font-size: 16px;
-    background-color: #2C021C;
-    color: #fff;
-}
-
-/*Form Page styles ends here*/
 
 /* Home style starts here */
 
@@ -381,7 +369,7 @@ div.gallery {
 
 /* About Us style starts here */
 
-.container 
+.aboutusContainer 
 {
  display: flex;
  justify-content:space-between;
@@ -433,13 +421,13 @@ div.gallery {
     border: 1px solid blueviolet;
     padding-top: 10px;
 }
-h2 
+.aboutusContainer h2 
 {
     color: pink;
     text-align:center;
     font:bold;
 }
-p
+.aboutusContainer p
 {
     color: whitesmoke;
     text-align: center;
@@ -450,10 +438,60 @@ p
 
 /* About page style ends here */
 
-/* Form styling starts here */
 
-form {
-    background-image: url(../images/f1.jpg);
-    background-size: cover;
-    color: white;
+
+/* Rsvp page styling starts here */
+
+.rsvpContainer{
+    width: 100%;
 }
+
+.tableContainer{    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tableContainer input:not(.checkbox, .gender, .rsvpButton){
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.tableContainer form{
+    width: 550px;
+    background-color: #b8b3b3;
+    padding: 20px;
+    border-radius: 5px;
+    outline: 5px solid #2C021C;
+}
+
+.tableContainer form input{
+    margin-bottom: 10px;
+}
+
+.checkboxContainer{
+    margin-bottom: 10px;
+}
+
+.rsvpPrice{
+    text-align: center;
+}
+
+.priceHighlight{
+    color: #9f1a6c;
+    font-size: 1.2em;
+}
+
+.rsvpButton{
+    background-color: #2C021C;
+    color: #fff;
+    font-size: 1.0em;
+    padding: 10px;
+    border-radius: 5px;
+    width: 99%;
+}
+
+
+/* Rsvp page styling ends here */
