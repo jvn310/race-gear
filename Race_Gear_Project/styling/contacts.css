@@ -495,3 +495,60 @@ div.gallery {
 
 
 /* Rsvp page styling ends here */
+
+
+/* terms and contions styling starts here */
+
+.conditions {
+    width: 700px;
+    height: 450px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.terms {
+    padding: 10% 25%;
+}
+
+.conditions .tabList {
+    width: 200px;
+    background: #2C021C;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.conditions .tabContent {
+    padding: 0 20px;
+    height: 100%;
+    background: #b8b3b3;
+}
+
+.conditions .tabContent .tabHead,
+.conditions .tabContent .tabFooter {
+    padding: 15px;
+    height: 60px;
+}
+
+.conditions .tabContent .tabHead {
+    text-align: center;
+}
+
+.conditions .tabContent .tabBody {
+    overflow: auto;
+    height: 100%;
+}
+
+.conditions .tabList ul {
+    padding: 70px 20px;
+    text-align: right;
+    color: white;
+    list-style: none;
+}
+
+.conditions .tabList ul li {
+    cursor: pointer;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
