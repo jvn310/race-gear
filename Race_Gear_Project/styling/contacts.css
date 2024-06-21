@@ -511,6 +511,10 @@ div.gallery {
     padding: 10% 25%;
 }
 
+.conditions .tab_item {
+    display: none;
+}
+
 .conditions .tabList {
     width: 200px;
     background: #2C021C;
@@ -522,6 +526,7 @@ div.gallery {
     padding: 0 20px;
     height: 100%;
     background: #b8b3b3;
+    flex-grow: 1;
 }
 
 .conditions .tabContent .tabHead,
@@ -536,14 +541,13 @@ div.gallery {
 
 .conditions .tabContent .tabBody {
     overflow: auto;
-    height: 100%;
+    height: calc(100% - 180px);
 }
 
 .conditions .tabList ul {
     padding: 70px 20px;
     text-align: right;
     color: white;
-    list-style: none;
 }
 
 .conditions .tabList ul li {
@@ -551,4 +555,45 @@ div.gallery {
     padding-bottom: 10px;
     position: relative;
     margin-bottom: 10px;
+}
+
+.conditions .tabList ul li.active2 {
+    color: palevioletred;
+}
+
+.tabFooter {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conditions .tabContent .tabFooter button {
+    width: 120px;
+    height: 40px;
+}
+
+.tabFooter .accept {
+    background-color: #d68eb1;
+    color: white
+}
+
+.tabFooter .accept:hover {
+    background-color: #c467a0;
+}
+
+.tabFooter .decline {
+    background-color: #ccc;
+    color: #000;
+    margin-right: 15px;
+}
+
+.tabFooter .decline:hover {
+    background-color: #bebbbb;
+}
+
+.tabFooter button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
 }
