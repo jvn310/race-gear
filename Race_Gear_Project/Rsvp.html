@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+    <title>RSVP</title>
     <link rel="stylesheet"href="./styling/contacts.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,7 +44,7 @@
 
             <div class="tableContainer">
 
-                <form>
+                <form id="rsvpForm" onsubmit="rsvpFunction(event)">
                     <h4>Personal Details</h4>
                     <label>First Name: </label><br>
                     <input name="firstName" type="text" required />
@@ -94,7 +94,7 @@
                     <input type="submit" value="RSVP" class="rsvpButton" />
                     
                 </form>
-
+                        
             </div>
             
         </div>
@@ -108,6 +108,24 @@
         <h4>This is a footer</h4>
         Copyrights reserved &copy; 2024
     </div>
+
+    <!-- Javascript code -->
+    <script>
+
+        function rsvpFunction(e){
+
+            e.preventDefault();
+            //get form element by id
+            const name = document.getElementById("rsvpForm")["firstName"].value;
+            window.location.href = "UpcomingEvents.html";
+            
+            alert(name + ", Thank you for RSVP'ng for this event");
+
+            
+        }
+
+    </script>
+
 </body>
 </html>
 
