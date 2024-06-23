@@ -29,6 +29,7 @@ tabList.forEach(function(List) {
 
 document.querySelector(".accept").addEventListener("click", function() {
     alert("You have accepted the terms.");
+    history.back();
 });
 
 document.querySelector(".decline").addEventListener("click", function() {
