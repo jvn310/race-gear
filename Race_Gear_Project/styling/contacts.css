@@ -20,7 +20,7 @@ nav{
 }
 
 .logo img{
-    height: 100%;
+    width: 80%;
 }
 
 nav ul{
@@ -84,17 +84,15 @@ nav li a:hover:not(.active) {
 /* Footer styling */
 
 .footer{
-    height: 128px;
-    background-color: lightgray;
-    text-align: center;
-    padding: 10px 20px;
+    background-color: #f1e9f1;
+    
+    padding: 20px 10px 5px 10px;
 }
 
 .footerContainer {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    height: 100%;
 }
 
 .footerSection {
@@ -106,6 +104,7 @@ nav li a:hover:not(.active) {
 
 .footerSection h4 {
     margin: 0;
+    color: #c467a0;
 }
 
 .footerSection p {
@@ -114,10 +113,27 @@ nav li a:hover:not(.active) {
     color: #010101;
 }
 
+.footerSection a{
+    text-decoration: none;
+    color: #000;
+}
+
 .copyright {
+    text-align: center;
     margin-top: 1px;
-    font-size: 15px;
     color: #010101;
+}
+
+.newsletter input{
+    padding: 5px;
+    border: 1px solid #2C021C;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.newsletter .button{
+    background-color: #c467a0;
+    border: none;
 }
 
 
@@ -199,7 +215,7 @@ nav li a:hover:not(.active) {
 .event {
     width: 50%;
     background:transparent;
-    background-color: lightgray;
+    background-color: #efccf0;
     border-radius: 8px;
     margin: 20px;
   }
@@ -320,120 +336,156 @@ div.gallery {
 
 /* Home style starts here */
 
-.services {
+.homeHeading{
+    background-image: url("../images/f1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0px;
+}
+.homeTransparentBackgrround{
+    background: rgba(63, 50, 64, 0.6);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sponsorsContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.merch {
-    width: 400px;
-    height: 300px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    color: white;
-    float: left;
+.sponsor img{
+    width: 100%;
+}
+
+.sponsor{
+    width: 11%;
+    margin: 20px;
+}
+
+.heading h1{
+    margin-top: 250px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    background-color: #9f1a6c;
+    padding: 30px 20px;
+    border-radius: 6px;
+    margin: 0px 20px;
+}
+
+.service{
+    width: 25%;
+}
+
+.promotion{
     text-align: center;
+    margin: 0px 250px;
 }
 
-.tickets {
-    width: 400px;
-    height: 300px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    color: white;
-    margin-left: 80px;
-    text-align: center;
+.promotion h2{
+    color: #9f1a6c;
 }
 
-.promotion {
-    width: 400px;
-    height: 450px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    color: white;
-    padding-top: 5px;
-}
-
-.bullets {
-    color: #010101;
-}
 
 /* Home style ends here */
 
 
 /* About Us style starts here */
 
-.aboutusContainer 
-{
- display: flex;
- justify-content:space-between;
+.aboutContainer {
+    display: flex;
 }
 
-.aboutus
-{
-    width: 300px;
-    height: 300px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border: 1px solid blueviolet;
-    border-radius: 20px;
-    position: left;
-    padding-top: 10px;
-
+.aboutContent{
+    width: 50%;
+    padding: 20px;
 }
 
-.mission
-{
-    width: 300px;
-    height: 300px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border: 1px solid blue;
-    border-radius: 20px;
-    position: bottom;
-    padding-top: 10px;
+.aboutContent h3{
+    color: #2C021C;
 }
 
-.offers
-{
-    width: 400px;
-    height: 480px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border-radius: 20px;
-    border: 1px solid blue;
-    padding-top: 10px;
+.aboutImage{
+    width: 50%;
+    padding: 20px;
 }
 
-.commitment
-{
-    width: 350px;
-    height: 400px;
-    background: transparent;
-    background-color: rgba(195, 22, 160, 0.5);
-    border-radius: 20px;
-    border: 1px solid blueviolet;
-    padding-top: 10px;
+.aboutImage img{
+    width: 100%;
+    border-radius: 10px;
 }
-.aboutusContainer h2 
-{
-    color: pink;
-    text-align:center;
-    font:bold;
-}
-.aboutusContainer p
-{
-    color: whitesmoke;
+
+.offersHeader{
     text-align: center;
-    font-size: medium;
-    font-family: Cambria;
+    padding-top: 20px;
+    
 }
+
+.offersContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #9f1a6c;
+    margin: 0px 20px;
+    border-radius: 6px;
+}
+
+.offersCard{
+    width: 25%;
+    border-radius: 6px;
+    margin: 50px 30px;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px #860a72;
+
+}
+
+.offersCardHeading{
+    background-color: #efccf0;
+    padding: 2px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.offersCardContent{
+    padding: 10px 20px;
+}
+
+.teamContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.teamCard{
+    width: 22%;
+    border-radius: 6px;
+    margin: 20px 30px;
+    background-color: #efccf0;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.teamCardImage {
+    width: 100%;
+    text-align: center;
+}
+
+.teamCardImage img{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.teamCardContent{
+    text-align: center;
+}
+
+.teamCardContent a{
+    text-decoration: none;
+    color: blue;
+}
+
 
 
 /* About page style ends here */
@@ -461,7 +513,7 @@ div.gallery {
 
 .tableContainer form{
     width: 550px;
-    background-color: #b8b3b3;
+    background-color: #efccf0;
     padding: 20px;
     border-radius: 5px;
     outline: 5px solid #2C021C;
