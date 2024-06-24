@@ -65,7 +65,7 @@
                             <td><textarea type="text" required placeholder="Message" rows="5" ></textarea></td>
                         </tr>
                         <tr>
-                            <td><button type="submit">SUBMIT</button></td>
+                            <td><button type="submit" class="submit2">SUBMIT</button></td>
                         </tr>
                     </form>
                 </table>
@@ -134,6 +134,17 @@
         <p class="copyright">&copy; 2024 Race Gear. All rights reserved.</p>
         
     </div>
+    <script>
+        document.querySelector(".submit2").addEventListener("click", function() {
+    alert("Thank you for contacting us. \n We'll get back to you shortly. \nStay fast, stay safe, and keep racing!");
+});
+
+        document.querySelector(".button").addEventListener("click", function(a) {
+            a.preventDefault();
+    alert("Thank you for subscribing to our news letter!");
+});
+    </script>
+
     
 </body>
 </html>

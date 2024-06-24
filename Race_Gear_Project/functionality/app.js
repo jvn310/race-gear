@@ -31,8 +31,3 @@ document.querySelector(".accept").addEventListener("click", function() {
     alert("You have accepted the terms.");
     history.back();
 });
-
-document.querySelector(".decline").addEventListener("click", function() {
-    alert("You have declined the terms.");
-    window.location.href = "home.html";
-});
